@@ -6,8 +6,6 @@ class GhostOs < Formula
   license "MIT"
   version "2.0.5"
 
-  depends_on macos: :sonoma
-
   def install
     bin.install "ghost"
 
