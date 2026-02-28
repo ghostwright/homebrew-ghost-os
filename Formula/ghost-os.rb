@@ -6,7 +6,6 @@ class GhostOs < Formula
   license "MIT"
   version "2.0.5"
 
-  depends_on :macos
   depends_on macos: :sonoma
 
   def install
