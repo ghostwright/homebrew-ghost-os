@@ -1,10 +1,10 @@
 class GhostOs < Formula
   desc "Full computer-use for AI agents. Self-learning workflows. Native macOS."
   homepage "https://github.com/ghostwright/ghost-os"
-  url "https://github.com/ghostwright/ghost-os/releases/download/v2.1.0/ghost-os-2.1.0-macos-arm64.tar.gz"
-  sha256 "4d40205efd85f1508362281647e768f50f2df5c46097338752e7f8c1f91439f8"
+  url "https://github.com/ghostwright/ghost-os/releases/download/v2.1.1/ghost-os-2.1.1-macos-arm64.tar.gz"
+  sha256 "31450e23b25ac3134789e6c80fd703c15450bc1dc37893d25346b3fbe2bb9936"
   license "MIT"
-  version "2.1.0"
+  version "2.1.1"
 
   def install
     bin.install "ghost"
@@ -38,8 +38,8 @@ class GhostOs < Formula
       Screenshots need Screen Recording permission (optional).
 
       Vision grounding (ghost_ground) requires:
-        - Python 3.9+ with mlx and mlx_vlm (auto-configured by ghost setup)
-        - ShowUI-2B model (~2.8 GB, downloaded during ghost setup)
+        - Python 3.10+ with mlx and mlx_vlm (auto-configured by ghost setup)
+        - ShowUI-2B model (~3 GB, downloaded during ghost setup)
         - The vision sidecar starts automatically when needed
 
       Check your setup:
