@@ -1,10 +1,10 @@
 class GhostOs < Formula
   desc "Full computer-use for AI agents. Self-learning workflows. Native macOS."
   homepage "https://github.com/ghostwright/ghost-os"
-  url "https://github.com/ghostwright/ghost-os/releases/download/v2.1.2/ghost-os-2.1.2-macos-arm64.tar.gz"
-  sha256 "bc82c44ab79324ae8eeed2d4ce432fcd5da00f8a639e2a6f965806f39e60e3a7"
+  url "https://github.com/ghostwright/ghost-os/releases/download/v2.2.0/ghost-os-2.2.0-macos-arm64.tar.gz"
+  sha256 "bc8222f8a0eea9016c3e4da9cd5ec7b9bb9af753c870d35de35c66b0c5953c6d"
   license "MIT"
-  version "2.1.2"
+  version "2.2.0"
 
   def install
     bin.install "ghost"
